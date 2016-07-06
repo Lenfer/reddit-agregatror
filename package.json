@@ -1,0 +1,21 @@
+{
+  "name": "reddit-agregatror",
+  "version": "0.0.1",
+  "description": "Agregate news from Reddit.com",
+  "main": "app",
+  "scripts": {
+    "test": "mocha",
+    "start": "NODE_ENV=development node app"
+  },
+  "author": "Andrey Dergaev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.14.0",
+    "lodash": "~4.13.1",
+    "moment": "~2.14.1",
+    "handlebars": "~4.0.5",
+    "body-parser": "~1.15.2",
+    "vow": "~0.3.13",
+    "request": "~2.72.0"
+  }
+}
